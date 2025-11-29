@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Contacto</title>
+        <!-- <base.../>  -->
+        <link rel="stylesheet" type="text/css" href="CssDocument.css">
+    </head>
+
+    <body>
+    <div id="barraSuperior">
+        <table id = "tablaSuperior">
+            <tr>
+                <td id = "celdasSuperior"><a href="c:\Users\ferna\Documents\DAM\Lenguajes de marca y sistemas de gestión de información\Tarea2\Tarea1.html">Main</a>  </td>
+                <td id = "celdasSuperior"><a href="c:\Users\ferna\Documents\DAM\Lenguajes de marca y sistemas de gestión de información\Tarea2\Historia.html">Historia</a>  </td>
+                <td id = "celdasSuperior"><a href="c:\Users\ferna\Documents\DAM\Lenguajes de marca y sistemas de gestión de información\Tarea2\Tradiciones.html">Tradiciones</a>  </td>
+                <td id = "celdasSuperior"><a href="c:\Users\ferna\Documents\DAM\Lenguajes de marca y sistemas de gestión de información\Tarea2\DatosEstadisticos.html">Datos Estad&iacute;sticos</a>  </td>
+                <td id = "celdasSuperior"><a href="c:\Users\ferna\Documents\DAM\Lenguajes de marca y sistemas de gestión de información\Tarea2\Información.html">Informaci&oacute;n</a>  </td>
+                <td id = "celdasSuperior"><a href="c:\Users\ferna\Documents\DAM\Lenguajes de marca y sistemas de gestión de información\Tarea2\Multimedia.html">Contenido Multimedia</a>  </td>
+                <td id = "celdasSuperior"><a href="c:\Users\ferna\Documents\DAM\Lenguajes de marca y sistemas de gestión de información\Tarea2\Contacto.html">Contacto</a>  </td>
+            </tr>
+        </table>
+        </div>
+    </body>
+        
+        <div>
+            <br/><br/><br/><br/>
+            <fieldset id="datosParaElContacto">
+                <br/>
+                <legend>Datos para el contacto</legend>
+                
+                <form name="contacto">
+                <label for="email"> Email</label> <br/>
+                <input type="email" name="email" value="@gmail.com"/><br/>
+                <br/>
+
+                <fieldset id = "tipoDeCliente">
+                    <legend>Tipo de cliente</legend>
+                    <input type ="radio" name="cliente" value="alumno"/> Alumno<br/>
+                    <input type ="radio"name="cliente" value="profesor"/> Profesor<br/>
+                    <input type ="radio" name="cliente" value="otro"/> otro<br/>
+                </fieldset>
+                <br/>
+
+                <fieldset id = "interesCliente">
+                    <legend>Interes en la ciudad</legend>
+                    <input type ="checkbox" name="clienteInteres" value ="historia"/> Historia<br/>
+                    <input type ="checkbox"name="clienteInteres" value = "turismo"/> Turismo<br/>
+                    <input type ="checkbox" name="clienteInteres"value = "otro"/> otro<br/>
+
+                </fieldset><br/>
+                <br/>
+
+                <label for="lugar"> Lugar <br/>
+                <select id = "ciudadContacto" name = "ciudad" >
+                    <option value="ciudad">Ciudad</option>
+                    <option value="provincia">Provincia</option>
+                    <option value="comunidad">Comunidad Autonoma</option>
+                </select><br/>
+                <br/>
+
+                <label for="date"> Fecha <br/>
+                <input type = "date" name="date"/> <br/> 
+                </label>
+                <br/>
+
+                <label for="tel"> Tel&eacute;fono</label> <br/>
+                <input type = "tel" name="tel"/> <br/>
+                <br/>
+
+                <label for = "text"> Mensaje</label><br/>
+                <textarea name="textarea" cols="40" rows="10" name = "mensaje"></textarea><br/>
+                <br/>
+
+                <input type="submit" name="enviar" value="Enviar Formulario"/>
+                <br/>
+
+                <input type = "reset" name = "reset" value = "Reset Formulario"/>
+            </form>
+            </fieldset>
+        </div>
+</html>

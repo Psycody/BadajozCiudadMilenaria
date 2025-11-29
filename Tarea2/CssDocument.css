@@ -1,0 +1,17 @@
+body{ text-align: justify ;text-align: center;color: white ; font-family: 'Courier New', Courier, monospace; background-color: black;font-size: x-large;background-image:url(ImagenesBadajoz/door-143531_1920.jpg) ;}
+h1{color: lightgray}
+div{background-color: black ;width:50%; margin: -40px auto;padding-bottom:5%;padding-right: 5%;padding-left: 5%;}
+
+#barraSuperior{background-color: black ;width:70%;height: 100px;margin-top: -100px;padding-bottom: 10px;  color: white; }
+#tablaSuperior{ margin-left: 0%; margin-top: 100px;padding-top: 25px; align-self: center;}
+#celdasSuperior{padding-left: 10px; padding-right: 10px;}
+#politica{margin-top:auto; margin-left: 25%;}
+#celdaPolitica{}
+a{color: white ; text-decoration: none;}
+h3 { color: lightgray; } 
+p {text-align: justify; font-family: verdana; width:70%; margin: 100px auto; }
+
+
+#tipoDeCliente{width: 50%; align-items: center;margin: auto;}
+#interesCliente{width: 50%; align-items: center;margin: auto;}
+#textBoxContacto{}
